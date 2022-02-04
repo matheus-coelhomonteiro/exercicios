@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes esternas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fonte/love larry ttf.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            tipos de format()
+            -opentype (otf)
+            -trutype (ttf)
+            -embedded-opentype
+            -truetype-aat(apple advenced pography)
+            -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'love';
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui maxime earum at aut dolore atque hic nihil fuga dignissimos quidem eos, iusto deleniti consectetur quam vitae ipsa suscipit doloremque aperiam.</p>
+</body>
+</html>
